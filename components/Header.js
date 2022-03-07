@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 
     title: {
         alignItems: 'center',
-        justifyContent: 'center',
+        
     }
 })
 export default Header
