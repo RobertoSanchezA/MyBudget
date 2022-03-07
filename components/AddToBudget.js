@@ -8,7 +8,7 @@ import {
     TextInput,
     StyleSheet
 } from 'react-native'
-const AddToBudget = ({addMode, addMoveHandler, addMoney, budget}) => {
+const AddToBudget = ({addMode, addMoveHandler, addMoney}) => {
 
     const [description, setDescription] = useState('')
     const [amount, setAmount] = useState('')
@@ -31,8 +31,6 @@ const AddToBudget = ({addMode, addMoveHandler, addMoney, budget}) => {
         setAmount('')
         setDate('')
     }
-
-
 
     return (
         <Modal visible={addMode} animationType={'slide'}>
